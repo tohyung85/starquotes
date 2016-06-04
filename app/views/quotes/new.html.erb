@@ -1,0 +1,8 @@
+<h1>Enter Quote details</h1>
+<%= simple_form_for @quote do |f| %>
+  <%= f.input :saying %>
+  <%= f.input :author %>
+  <%= f.input :poster_image %>    
+  <br />
+  <%= f.submit 'Create', class: 'btn btn-danger' %>
+<% end %>

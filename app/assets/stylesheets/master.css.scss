@@ -1,0 +1,130 @@
+.footer, .header {
+  background-color: #4ABDAC;
+}
+
+.header {
+  width: 100%;
+}
+
+header {
+  margin-bottom: 0px;
+  padding-bottom:0px;
+}
+
+hr {
+  clear: both;
+}
+
+.saying {
+  font-family: 'ralewaybold';
+}
+
+.author {
+  font-family: 'ralewaybold_italic';
+  font-style: italic;
+}
+
+.clear {
+  clear: both;
+}
+
+.circle {
+    font-weight:bold;
+    font-style: italic;
+    position: relative;
+    border-radius: 100%;
+    background: #fc4a1a;
+    border: 1px solid #F7F7F7;
+    width: 80px;
+    height: 80px;
+    margin: 10px 10px;
+    text-align: center;
+    color: #FFF;
+    font-size: 10px;
+    line-height: 16px;
+    cursor: pointer;
+    transform:rotate(11deg);
+    -ms-transform:rotate(11deg); /* IE 9 */
+    -webkit-transform:rotate(11deg); /* Opera, Chrome, and Safari */
+}
+
+.logo:hover {
+  text-decoration: none;
+}
+
+.slogan {
+  /* Verdana-based sans serif stack */
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-size: 20px;
+  font-style: italic;
+  padding-top: 32px;
+  color: white;
+}
+
+.links {
+  /* Verdana-based sans serif stack */
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;  
+  font-size: 24px;
+  padding-top: 26px;
+  padding-right: 30px;  
+  text-align: right;
+}
+
+.links a {
+  /* Verdana-based sans serif stack */
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;    
+  color: #F7B733;
+}
+
+.links a:hover {
+  color:#FC4A1A;
+}
+
+.quote_div {
+  background-image: url("quote_background.jpg");
+  background-size: cover;
+  background-position: center;
+  padding:0;
+  margin:0;
+  width: 100%;
+}
+
+.quote_inner_div {
+  background: rgba(223, 220, 227, 0.8);
+  height:100%;
+  width: 100%;
+  margin:0px;
+  padding-bottom:10em;
+}
+
+.quote_image {
+  padding-top: 2%;
+  width: 300px;
+  height: auto;
+}
+
+.next_quote {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+  font-size: 24px;
+  font-style: italic;
+  color: #F7B733;
+}
+
+.next_quote:hover {
+  color:#FC4A1A;
+}
+
+
+
+@media (max-width: 480px) {
+  .quote_image {
+    width: 200px;
+    height: auto;
+  }
+}
+
+@media (max-width: 780px) {
+  .slogan {
+    display: none;
+  }
+}

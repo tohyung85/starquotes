@@ -1,3 +1,9 @@
-<h1><%= @quote.saying %></h1>
-<h1><%= @quote.author %></h1>
-<h1><%= @quote.poster_image %></h1>
+<div class="quote_div">
+  <div class= "container quote_inner_div">
+    <div class="col-sm-8">
+      <h1 class="saying"><%= @quote.saying %></h1>
+      <h1 class="author"><%= @quote.author %></h1>
+    </div>
+    <%= image_tag(@quote.poster_image, :class => "col-sm-4 quote_image") %>
+  </div>
+</div>

@@ -8,7 +8,46 @@
 </head>
 <body>
 
+<header class="container header">
+  
+  <div class= "col-xs-3 col-sm-3">
+    <%= link_to root_path, class: 'logo' do %>
+    <div class="circle">
+      <br />
+      Great movie
+      <br />
+      quotes you
+      <br />
+      should know
+    </div>
+    <% end %>
+  </div>
+  
+  <div class= "col-sm-4 slogan">
+    Star quotes every movie geek should know!
+  </div>
+  <div class="col-xs-9 col-sm-5 links">
+    <%= link_to 'Contribute', new_quote_path %>
+    &nbsp
+    &nbsp
+    <%= link_to 'About', '#' %>
+  </div>  
+</header>
+
 <%= yield %>
+
+<footer class="footer">
+  <div class="container">
+    <div class="col-xs-6">
+      <%= link_to "Gimme my next quote!", root_path, class: 'next_quote' %>
+    </div>
+    <div class="col-xs-6 footer_comment">
+      Proudly hacked in Singapore by <a href="https://github.com/tohyung85">Joshua</a>
+      <br class="clear"/>
+      Wanna make a quoting app too? Check out <a href="http://www.thefirehoseproject.com/">Firehose Project</a>
+    </div>
+  </div>
+</footer>
 
 </body>
 </html>
