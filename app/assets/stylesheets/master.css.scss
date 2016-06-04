@@ -99,8 +99,8 @@ hr {
 
 .quote_image {
   padding-top: 2%;
-  width: 300px;
-  height: auto;
+  width: auto;
+  height: 400px;
 }
 
 .next_quote {
@@ -126,13 +126,20 @@ hr {
 
 .profile_image {
   border-radius: 10px;
+  width: auto;
+  height: 250px;
+  padding-right:0px;
 }
 
 @media (max-width: 480px) {
-  .quote_image {
-    width: 200px;
-    height: auto;
+  .quote_image{
+    width: auto;
+    height: 300px;
   }
+   .profile_image {
+    width: auto;
+    height: 200px;
+  }  
 }
 
 @media (max-width: 780px) {
