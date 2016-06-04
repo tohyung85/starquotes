@@ -114,7 +114,19 @@ hr {
   color:#FC4A1A;
 }
 
+.display_container {
+  width: 100%;
+  margin: 0;
+  padding: 0;
+}
 
+.about {
+  font-family: Corbel, "Lucida Grande", "Lucida Sans Unicode", "Lucida Sans", "DejaVu Sans", "Bitstream Vera Sans", "Liberation Sans", Verdana, "Verdana Ref", sans-serif;
+}
+
+.profile_image {
+  border-radius: 10px;
+}
 
 @media (max-width: 480px) {
   .quote_image {
