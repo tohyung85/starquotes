@@ -45,9 +45,11 @@
         <div class="modal-body">
           <h1>Enter Quote details</h1>
           <%= simple_form_for Quote.new do |f| %>
-            <%= f.input :saying %>
-            <%= f.input :author %>
-            <%= f.input :poster_image %>                          
+            <%= f.input :saying, label: "Who said what?" %>
+            <br/>
+            <%= f.input :author, label: "Who said it?" %>
+            <br />
+            <%= f.input :poster_image, label: "Enter html link to movie poster" %>                          
         </div>
         <div class="modal-footer">
           <button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
