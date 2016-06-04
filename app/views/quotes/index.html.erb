@@ -4,11 +4,11 @@
       <span>Star Quote No. <%= @quote.id %></span>
       Here is your quote for the day...
     </h2>
-    <div class="col-sm-8">
+    <div class="col-xs-12 col-sm-8">
       <h1 class="saying"><%= @quote.saying %></h1>
       <h1 class="author pull-right"><%= @quote.author %></h1>
     </div>
-    <%= image_tag(@quote.poster_image, :class => "col-sm-4 quote_image") %>
+    <%= image_tag(@quote.poster_image, :class => "col-xs-12 col-sm-4 quote_image") %>
     <br class="clear"/>
     <br/>
     <br/>
